@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev_linkedin"."main"."sales_data_sample" ("Order ID" text,"Customer Name" text,"Product" text,"Category" text,"Order Date" date,"Region" text,"Sales" float8,"Quantity" integer,"Discount" float8)
+  ;
+    -- dbt seed --
+    
+          COPY "dev_linkedin"."main"."sales_data_sample" FROM 'D:\Projects\Python\DBT\dbt_linkedin\seeds\sales_data_sample.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

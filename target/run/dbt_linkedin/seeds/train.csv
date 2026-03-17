@@ -1,0 +1,13 @@
+
+    
+    
+    
+    create table "dev_linkedin"."main"."train" ("PassengerId" integer,"Survived" integer,"Pclass" integer,"Name" text,"Sex" text,"Age" float8,"SibSp" integer,"Parch" integer,"Ticket" text,"Fare" float8,"Cabin" text,"Embarked" text)
+  ;
+    -- dbt seed --
+    
+          COPY "dev_linkedin"."main"."train" FROM 'D:\Projects\Python\DBT\dbt_linkedin\seeds\train.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',')
+        
+
+;
+  

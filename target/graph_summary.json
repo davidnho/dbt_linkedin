@@ -1,0 +1,1 @@
+{"_invocation_id": "e53a28ad-7dd6-4f23-877b-5b9ccea08151", "linked": {"0": {"name": "seed.dbt_linkedin.sales_data_sample", "type": "seed"}, "1": {"name": "seed.dbt_linkedin.train", "type": "seed"}}, "with_test_edges": {"0": {"name": "seed.dbt_linkedin.sales_data_sample", "type": "seed"}, "1": {"name": "seed.dbt_linkedin.train", "type": "seed"}}}
